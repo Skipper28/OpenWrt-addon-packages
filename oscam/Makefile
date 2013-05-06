@@ -25,10 +25,7 @@ define Package/oscam
   SECTION:=utils
   CATEGORY:=Utilities
 # DEFAULT:=y
-#  DEPENDS:=+libopenssl +libpthread +openssl +librt +libusb-1.0 +kmod-usb-serial-ftdi +openssl-util
-  DEPENDS:=+libopenssl +libpthread-stubs +libusb-1.0 +kmod-usb-serial-ftdi
-#DEPENDS:=+libopenssl +libusb-1.0
-# MENU:=1
+  DEPENDS:=+libopenssl +libpthread +librt +libusb-1.0 +kmod-usb-serial +kmod-usb-serial-ftdi
   TITLE:=OSCam is an Open Source Conditional Access Module software
   URL:=http://streamboard.de.vu:8001/
 endef
