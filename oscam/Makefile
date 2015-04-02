@@ -8,7 +8,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=oscam
-PKG_REV:=8625
+#PKG_REV:=8625
+PKG_REV:=10646
 PKG_VERSION:=$(PKG_REV)
 PKG_RELEASE:=1
 
