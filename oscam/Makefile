@@ -8,7 +8,6 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=oscam
-#PKG_REV:=8625
 PKG_REV:=11174
 PKG_VERSION:=$(PKG_REV)
 PKG_RELEASE:=1
@@ -26,7 +25,7 @@ define Package/oscam
   SECTION:=utils
   CATEGORY:=Utilities
 # DEFAULT:=y
-  DEPENDS:=+libopenssl +libpthread +librt +libusb-1.0 +kmod-usb-serial +kmod-usb-serial-ftdi
+  DEPENDS:=+libopenssl +libpthread +libusb-1.0 +kmod-usb-serial +kmod-usb-serial-ftdi
   TITLE:=OSCam is an Open Source Conditional Access Module software
   URL:=http://streamboard.de.vu:8001/
 endef
