@@ -1,3 +1,3 @@
 ## OSCAM
 
-# deprecated
+deprecated
